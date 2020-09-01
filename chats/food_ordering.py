@@ -13,7 +13,7 @@ class FoodChat(GedisChatBot):
     steps = ["client_name_select", "restaurant_select", "restaurant_main_dish", "restaurant_side_dish", "confirmation"]
 
     # Chatflow title
-    title = "Food Chat"
+    title = "Food ordering Chat"
 
     @chatflow_step("Name")
     def client_name_select(self):
