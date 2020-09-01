@@ -1,2 +1,3 @@
 name = "demo_package"
 is_auth = true
+is_admin = false
